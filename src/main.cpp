@@ -69,7 +69,7 @@ void parseAndStoreJSON(String jsonString)
   saveToEEPROM(); // Save to EEPROM after parsing and storing the keys
 }
 
-WebUSB WebUSBSerial(1 /* https:// */, "127.0.0.1:5500/purejsapproach/");
+WebUSB WebUSBSerial(1 /* https:// */, "https://mpschneider2.github.io/LWHS-Adaptive-Game-Controller/");
 
 #define Serial WebUSBSerial
 

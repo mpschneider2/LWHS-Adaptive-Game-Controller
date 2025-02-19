@@ -225,6 +225,8 @@ void loop()
       lastString = str;
       saveToEEPROM();
       EEPROM.update(500, 100);
+      Serial.write("Success!");
+      Serial.flush();
     }
 
     // saveToEEPROM();
